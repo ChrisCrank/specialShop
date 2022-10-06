@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": {
+      "name": "Home"
+    },
+    "agb": {
+      "name": "TOS"
+    },
+    "license": {
+      "name": "License"
+    },
+    "data": {
+      "name": "DSGVO"
+    },
+    "login": {
+      "name": "Login"
+    },
+    "logoff": {
+      "name": "Logoff"
+    },
+    "account": {
+      "name": "Account"
+    },
+    "admin": {
+      "name": "Admin"
+    },
+    "register": {
+      "name": "Register"
+    },
+    "category": {
+      "name": "Category"
+    },
+    "lang": "Language"
+  },
+  "home": {
+    "section1": {
+      "title": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua.",
+      "action": "Click Me Hard"
+    },
+    "section2": {
+      "card": {
+        "title": "Some Text",
+        "action": "Click Me Hard",
+        "subTitle": "Some Other Text",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco."
+      }
+    },
+    "section3": {
+      "title": "Categories",
+      "action": "Show All"
+    },
+    "section4": {
+      "title": "New Products"
+    },
+    "section5": {
+      "title": "Why to use this Shop?",
+      "1": {
+        "title": "good quality",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "2": {
+        "title": "fast shipping",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "3": {
+        "title": "customer support",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "4": {
+        "title": "Best IT!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      }
+    }
+  },
+  "product-detail": {
+    "addToCart": "Add to cart",
+    "share": "share",
+    "price": "Price",
+    "quantity": "Quantity",
+    "number": "Product-Number",
+    "quantity-error": "The Quantity have to be below the current Stock and higher then 0",
+    "stock": "Stock",
+    "unit": "stk."
+  },
+  "product-listing": {
+    "search": {
+        "title": "Search",
+        "placeholder": "Search..."
+    },
+    "noProductsFound": "No Products Found"
+  },
+  "cart": {
+    "noProducts": "No Products inside your Cart",
+    "toCheckout": "To Checkout",
+    "outOfStock": "The Product does not Provide the stock you request",
+    "error": {
+      "F1": "The Quantity {quantity} of the Product \"{name}\" is below the available stock of {stock}."
+    }
+  },
+  "checkout": {
+    "title": "Complete Order",
+    "logIn": "You have to be logged in to purchase our awsome Products",
+    "noProducts": "You dont have any Products inside your Cart",
+    "shippingAddress": "Shipping Address",
+    "billingAddress": "Billing Address",
+    "paymentMethod": {
+      "title": "Payment Method",
+      "PayPal": {
+        "title": "PayPal",
+        "description": "PayPal Online Service"
+      },
+      "Invoice": {
+        "title": "Invoice",
+        "description": "You Pay first nnkay?"
+      },
+      "Cash": {
+        "title": "Cash on Delivery",
+        "description": "You Pay on the Door"
+      }
+    },
+    "shippingMethod": {
+      "title": "Shipping Method",
+      "express": {
+        "title": "Express",
+        "description": "As Fast as possible"
+      },
+      "default": {
+        "title": "Default",
+        "description": "Will take probably month"
+      }
+    },
+    "list": {
+      "product": "Product",
+      "quantity": "Quantity",
+      "vat": "incl. Vat",
+      "subTotal": "SubTotal"
+    },
+    "loginAction": "LogIn",
+    "registerAction": "Register",
+    "summery": "Summery",
+    "total": "Total",
+    "shipping": "Shipping costs",
+    "grandTotal": "Grand total",
+    "netTotal": "Net. Total",
+    "vatTotal": "+ 19% Vat",
+    "checkout": "Checkout",
+    "success": "Thanks for your Order. Unfortunately it was al a big scam",
+    "goBack": "Go Back",
+    "error": {
+      "F1": "The Shippingmethod is not valid",
+      "F2": "The PaymentMethod is not valid",
+      "F3": "The provided Product could not be found",
+      "F4": "The Product \"{name}\" is not in stock ",
+      "general": ""
+    }
+  },
+  "header": {
+    "user": "User",
+    "user-account": "Account",
+    "user-logout": "Log-Out"
+  },
+  "sidebar": {
+    "home": "Home",
+    "category": "Categories",
+    "product": "Products"
+  },
+  "admin": {
+    "search": "Search",
+    "errors": {
+      "general": "An Error happend"
+    }
+  },
+  "category": {
+    "subCategory": "Sub-Categories",
+    "title": "Categories",
+    "add": "Create"
+  },
+  "category-delete": {
+    "title": "Delete Category: \"{name}\"",
+    "description": "Are you sure you want to delete the Category \"{name}\" (Sub-Categories will not be deleted).",
+    "delete": "Delete Category",
+    "abort": "Abort",
+    "success": "Product deleted",
+    "errors": {
+      "F3": "No Rights to do this action!"
+    }
+  },
+  "category-edit": {
+    "title": "Edit Category: \"{name}\"",
+    "edit": "Edit Category",
+    "abort": "Abort",
+    "success": "Category successfully edited",
+    "errors": {
+      "F3": "No Rights to do this action!"
+    }
+  },
+  "category-add": {
+    "title": "create Category ",
+    "add": "Add",
+    "sort": {
+      "title": "Sort",
+      "placeholder": "Sort"
+    },
+    "parent": {
+      "title": "Parent Category",
+      "placeholder": "None Parent Category"
+    },
+    "thumbnail": {
+      "title": "Category Thumbnail"
+    },
+    "shortDesc": {
+      "title": "Short Description"
+    },
+    "name": {
+      "title": "Title",
+      "placeholder": "My Category Name"
+    },
+    "active": {
+      "title": "Categpry Active",
+      "placeholder": ""
+    },
+    "success": "Category successfully added",
+    "errors": {
+      "F1": "Not all Required Parameters submitted",
+      "F2": "supplied Language is not valid",
+      "F3": "The Name already exist for language: {language}",
+      "F4": "The provided IMG is not valid"
+    }
+  },
+
+  "product": {
+    "add": "Create Product",
+    "title": "Products",
+    "titleCategory": "Products of Category \"{name}\""
+  },
+  "product-add": {
+    "title": "create Product",
+    "add": "Add",
+    "sort": {
+      "title": "Sort",
+      "placeholder": "Sort"
+    },
+    "stock": {
+      "title": "Stock",
+      "placeholder": "Stock"
+    },
+    "price": {
+      "title": "Price",
+      "placeholder": "Price"
+    },
+    "productNumber": {
+      "title": "Product-Number",
+      "placeholder": "P-1023"
+    },
+    "parent": {
+      "title": "Parent Category (multiple with STRG)",
+      "placeholder": "None Parent Category"
+    },
+    "thumbnail": {
+      "title": "Product Thumbnail"
+    },
+    "shortDescription": {
+      "title": "Short Description",
+      "placeholder": "Short Description"
+    },
+    "description": {
+      "title": "Description"
+    },
+    "name": {
+      "title": "Title",
+      "placeholder": "My Product Name"
+    },
+    "active": {
+      "title": "Product Active",
+      "placeholder": ""
+    },
+    "success": "Product successfully added",
+    "errors": {
+      "F1": "Not all Required Parameters submitted",
+      "F2": "supplied Language is not valid",
+      "F3": "Categories not valid",
+      "F4": "The provided IMG is not valid",
+      "F5": "The Productname already exist in the language {language}"
+    }
+  },
+  "product-edit": {
+    "title": "Edit Product \"{name}\"",
+    "edit": "Edit Product",
+    "abort": "Abort",
+    "success": "Product successfully edited"
+  },
+  "product-delete": {
+    "title": "Delete Product: \"{name}\"",
+    "description": "Are you sure you want to delete the Product \"{name}\".",
+    "delete": "Delete Product",
+    "abort": "Abort",
+    "success": "Product deleted",
+    "errors": {
+      "F3": "No Rights to do this action!"
+    }
+  },
+  "forgot": {
+    "send-action": "Send",
+    "hint": "Please enter your email address so we can send you a reset email.",
+    "reset-hint": "To reset your password, you must enter the code from your email here.",
+    "reset-action": "reset password",
+    "login": "Did you remember your password? {link}",
+    "login-link": "Go to login",
+    "success": "Your password has been successfully updated. {link}",
+    "success-link": "To the login",
+    "code": "Code",
+    "error": {
+      "F1": "Please check your email as it could not be found.",
+      "F2": "Your Password Reset Link is Invalid, please request a new one",
+      "F3": "Please use a stronger Password",
+      "general": "There has been an error."
+    }
+  },
+  "login": {
+    "title": "Best-It Special Shop",
+    "subtitle": "Your Partner for proffessional IT",
+    "mail": "E-Mail-Adress",
+    "mailuser": "E-Mail-Adress or Username",
+    "password": "password",
+    "remember": "remember password",
+    "login-action": "Login",
+    "register-hint": "No Account? {link}",
+    "register-action-link": "register now",
+    "error": {
+      "F1": "Login Credentials not correct",
+      "F3": "Please activate your account before logging in again. {link}",
+      "active-link": "Aktivierungscode erneut schicken"
+    },
+    "forgot-password": "Forgot Password? {link}",
+    "forgot-password-link": "Request new Password",
+    "logoff-hint": "You successfully logged off"
+  },
+  "activate": {
+    "code": "activation code",
+    "activate-action-link": "Activate now",
+    "error": "This activation code is not valid.",
+    "success": "Thank you for registering. Your account has been successfully activated, you can now {link}.",
+    "login-action": "log in",
+    "hint": "To complete the registration, you still have to activate your account.\nPlease check your email inbox for an activation email.",
+    "no-code": "No code found? {link}",
+    "resend-action": "Request code again here"
+  },
+  "resend": {
+    "email": "E-Mail",
+    "hint": "Enter the e-mail address with which you have already registered.",
+    "already-code": "Already have a code? {link}",
+    "already-code-action": "Activate now",
+    "action": "Code erneut versenden",
+    "error": "Unfortunately, no code could be send. Try again later or contact the Administrator (info@bestIt-Demo-Shop.com)."
+  },
+  "account": {
+    "changePassword": "Change Password",
+    "oldPassword": "Old Password",
+    "newPassword": "New Password",
+    "save": "save",
+    "error": {
+      "F1": "The Email is not considered as valid",
+      "F2": "The Email is already in use",
+      "F3": "Password Security to low",
+      "F4": "Firstname or Lastname is to short",
+      "F5": "Wrong Gender supplied",
+      "F6": "Language could not be detected",
+      "F7": "Your Address is not valid",
+      "F8": "Your Old Password is not correct",
+      "general": "An Error Occured, please contact the admin or try it later"
+    },
+    "successGeneral": "Your Account Details are successfully edited"
+  },
+  "register": {
+    "title": "Registration",
+    "login-hint": "You already have an account? {link}",
+    "login-action-link": "Log in now",
+    "register-action": "register",
+    "password": "Password",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "street": "Street",
+    "postcode": "Postcode",
+    "city": "City",
+    "country": "Country",
+    "password-retype": "Retype Password",
+    "language": "Language",
+    "agb": "I Accept the {link}.",
+    "agb-link": "Conditions",
+    "password-mismatch": "The passwords do not match.",
+    "gender": "Gender",
+    "genderOptions": {
+      "diverse": "Diverse",
+      "male": "Male",
+      "female": "Female"
+    },
+    "error": {
+      "F1": "The Email is not considered as valid",
+      "F2": "The Email is already in use",
+      "F3": "Password Security to low",
+      "F4": "Firstname or Lastname is to short",
+      "F5": "Wrong Gender supplied",
+      "F6": "Language could not be detected",
+      "F7": "Your Adress is not valid",
+      "general": "An Error Occured, please contact the admin or try it later"
+    }
+  },
+  "search":{
+    "title": "Search",
+    "placeholder": "Search for entries"
+  },
+  "sideMenu":{
+    "title": "Categories"
+  }
+}

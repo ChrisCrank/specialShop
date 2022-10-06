@@ -1,0 +1,415 @@
+{
+  "menu": {
+    "home": {
+      "name": "Home"
+    },
+    "agb": {
+      "name": "AGB"
+    },
+    "license": {
+      "name": "Lizenz"
+    },
+    "data": {
+      "name": "DSGVO"
+    },
+    "login": {
+      "name": "Anmelden"
+    },
+    "logoff": {
+      "name": "Ausloggen"
+    },
+    "account": {
+      "name": "Account"
+    },
+    "admin": {
+      "name": "Admin"
+    },
+    "register": {
+      "name": "Registrieren"
+    },
+    "category": {
+      "name": "Kategorie"
+    },
+    "lang": "Sprache"
+  },
+  "home": {
+    "section1": {
+      "title": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua.",
+      "action": "Click Me Hard"
+    },
+    "section2": {
+      "card": {
+        "title": "Some Text",
+        "action": "Click Me Hard",
+        "subTitle": "Some Other Text",
+        "text": "Sed do eiusmod tempor incididunt ut labore et dolo magna aliqua. Ut enim ad minim veniam, quis nostd exercitation ullamco laboris nisi ut aliquip ex ea mo consequat. Duis aute irure dolor in reprehenderit in ullamco."
+      }
+    },
+    "section3": {
+      "title": "Kategorien",
+      "action": "Zeige alle"
+    },
+    "section4": {
+      "title": "Neue Produkte"
+    },
+    "section5": {
+      "title": "Warum diesen Shop nutzen?",
+      "1": {
+        "title": "gute Qualität",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "2": {
+        "title": "schnelle Lieferung",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "3": {
+        "title": "Kundendienst",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      },
+      "4": {
+        "title": "Best IT!",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aliquid, aperiam atque fuga, in ipsam, iusto minus neque quidem repellat sed tempora ut!"
+      }
+    }
+  },
+  "product-detail": {
+    "addToCart": "In den Warenkorb legen",
+    "share": "Teilen",
+    "price": "Preis",
+    "quantity": "Menge",
+    "number": "Produktnummer",
+    "quantity-error": "Die Menge muss unter dem aktuellen Lagerbestand und höher als 0 liegen",
+    "stock": "Bestand",
+    "unit": "stk."
+  },
+  "product-listing": {
+    "search": {
+      "title": "Suchen",
+      "placeholder": "Suchen..."
+    },
+    "noProductsFound": "Keine Produkte gefunden"
+  },
+  "cart": {
+    "noProducts": "Keine Produkte in Ihrem Einkaufswagen",
+    "toCheckout": "Überprüfen",
+    "outOfStock": "Das Produkt bietet nicht den von Ihnen angeforderten Bestand",
+    "error": {
+      "F1": "Die Menge {quantity} des Produkts \"{name}\" liegt unter dem verfügbaren Bestand von {stock}."
+    }
+  },
+  "checkout": {
+    "title": "Bestellung abschließen",
+    "logIn": "Sie müssen eingeloggt sein, um unsere fantastischen Produkte zu kaufen",
+    "noProducts": "Sie haben keine Produkte in Ihrem Einkaufswagen",
+    "shippingAddress": "Lieferanschrift",
+    "billingAddress": "Rechnungsadresse",
+    "paymentMethod": {
+      "title": "Zahlungsmethode",
+      "PayPal": {
+        "title": "PayPal",
+        "description": "PayPal-Online-Service"
+      },
+      "Invoice": {
+        "title": "Invoice",
+        "description": "Sie zahlen zuerst nnkay?"
+      },
+      "Cash": {
+        "title": "Barzahlung bei Lieferung",
+        "description": "Sie zahlen an der Tür"
+      }
+    },
+    "shippingMethod": {
+      "title": "Versandart",
+      "express": {
+        "title": "Express",
+        "description": "So schnell wie möglich"
+      },
+      "default": {
+        "title": "Default",
+        "description": "Wird wahrscheinlich Monate dauern"
+      }
+    },
+    "list": {
+      "product": "Produkt",
+      "quantity": "Menge",
+      "vat": "inkl. MwSt",
+      "subTotal": "Zwischensumme"
+    },
+    "loginAction": "Anmeldung",
+    "registerAction": "Registrieren",
+    "summery": "Übersicht",
+    "total": "Summe",
+    "shipping": "Versandkosten",
+    "grandTotal": "Gesamtsumme",
+    "netTotal": "Net. Summe",
+    "vatTotal": "+ 19% Mwst.",
+    "checkout": "bestellen",
+    "success": "Danke für Ihre Bestellung. Leider war es ein großer Betrug",
+    "goBack": "Geh zurück",
+    "error": {
+      "F1": "Die Versandmethode ist ungültig",
+      "F2": "Die Zahlungsmethode ist ungültig",
+      "F3": "Das bereitgestellte Produkt konnte nicht gefunden werden",
+      "F4": "Das Produkt \"{name}\" ist nicht auf Lager",
+      "general": ""
+    }
+  },
+  "header": {
+    "user": "Benutzer",
+    "user-account": "Account",
+    "user-logout": "Log-Out"
+  },
+  "sidebar": {
+    "home": "Home",
+    "category": "Kategorien",
+    "product": "Produkte"
+  },
+  "admin": {
+    "search": "Suche",
+    "errors": {
+      "general": "Ein Fehler ist aufgetreten"
+    }
+  },
+  "category": {
+    "subCategory": "Unterkategorien",
+    "title": "Kategorien",
+    "add": "Erstellen"
+  },
+  "category-delete": {
+    "title": "Kategorie löschen: \"{name}\"",
+    "description": "Möchten Sie die Kategorie \"{name}\" wirklich löschen (Unterkategorien werden nicht gelöscht).",
+    "delete": "Kategorie löschen",
+    "abort": "Abbrechen",
+    "success": "Produkt gelöscht",
+    "errors": {
+      "F3": "Keine Rechte für diese Aktion!"
+    }
+  },
+  "category-edit": {
+    "title": "Kategorie bearbeiten: \"{name}\"",
+    "edit": "Kategorie bearbeiten",
+    "abort": "Abbrechen",
+    "success": "Kategorie erfolgreich bearbeitet",
+    "errors": {
+      "F3": "Keine Rechte für diese Aktion!"
+    }
+  },
+  "category-add": {
+    "title": "Kategorie Hinzufügen",
+    "add": "Hinzufügen",
+    "sort": {
+      "title": "Sortieren",
+      "placeholder": "Sortieren"
+    },
+    "parent": {
+      "title": "Eltern-Kategorie",
+      "placeholder": "Keine Übergeordnete Kategorie"
+    },
+    "thumbnail": {
+      "title": "Kategorie-Miniaturansicht"
+    },
+    "shortDesc": {
+      "title": "kurze Beschreibung"
+    },
+    "name": {
+      "title": "Titel",
+      "placeholder": "Mein Kategoriename"
+    },
+    "active": {
+      "title": "Kategorie aktiv",
+      "placeholder": ""
+    },
+    "success": "Kategorie erfolgreich hinzugefügt",
+    "errors": {
+      "F1": "Nicht alle erforderlichen Parameter übermittelt",
+      "F2": "Die angegebene Sprache ist nicht gültig",
+      "F3": "Der Name existiert bereits für die Sprache: {language}",
+      "F4": "Der bereitgestellte IMG ist nicht gültig"
+    }
+  },
+
+  "product": {
+    "add": "Produkt erstellen",
+    "title": "Produkte",
+    "titleCategory": "Produkte der Kategorie \"{name}\""
+  },
+  "product-add": {
+    "title": "Produkt erstellen",
+    "add": "Hinzufügen",
+    "sort": {
+      "title": "Sortieren",
+      "placeholder": "Sortieren"
+    },
+    "stock": {
+      "title": "Bestand",
+      "placeholder": "Bestand"
+    },
+    "price": {
+      "title": "Preis",
+      "placeholder": "Preis"
+    },
+    "productNumber": {
+      "title": "Produktnummer",
+      "placeholder": "P-1023"
+    },
+    "parent": {
+      "title": "Übergeordnete Kategorie (mehrere mit STRG)",
+      "placeholder": "Keine Übergeordnete Kategorie"
+    },
+    "thumbnail": {
+      "title": "Produkt Thumbnail"
+    },
+    "shortDescription": {
+      "title": "kurze Beschreibung",
+      "placeholder": "kurze Beschreibung"
+    },
+    "description": {
+      "title": "Beschreibung"
+    },
+    "name": {
+      "title": "Title",
+      "placeholder": "Mein Produktname"
+    },
+    "active": {
+      "title": "Produkt aktiv",
+      "placeholder": ""
+    },
+    "success": "Produkt erfolgreich hinzugefügt",
+    "errors": {
+      "F1": "Nicht alle erforderlichen Parameter übermittelt",
+      "F2": "Die angegebene Sprache ist nicht gültig",
+      "F3": "Kategorien ungültig",
+      "F4": "Des bereitgestellte IMG ist nicht gültig",
+      "F5": "Der Produktname existiert bereits in der Sprache {language}"
+    }
+  },
+  "product-edit": {
+    "title": "Produkt \"{name}\" bearbeiten",
+    "edit": "Produkt bearbeiten",
+    "abort": "Abbrechen",
+    "success": "Produkt erfolgreich bearbeitet"
+  },
+  "product-delete": {
+    "title": "Produkt löschen: \"{name}\"",
+    "description": "Möchten Sie das Produkt „{name}“ wirklich löschen?",
+    "delete": "Produkt löschen",
+    "abort": "Abbrechen",
+    "success": "Produkt gelöscht",
+    "errors": {
+      "F3": "Keine Rechte für diese Aktion!"
+    }
+  },
+  "forgot": {
+    "send-action": "Senden",
+    "hint": "Bitte geben Sie Ihre E-Mail-Adresse ein, damit wir Ihnen eine E-Mail zum Zurücksetzen senden können.",
+    "reset-hint": "Um Ihr Passwort zurückzusetzen, müssen Sie hier den Code aus Ihrer E-Mail eingeben.",
+    "reset-action": "Passwort zurücksetzen",
+    "login": "Haben Sie sich an Ihr Passwort erinnert? {link}",
+    "login-link": "Go to login",
+    "success": "Ihr Passwort wurde erfolgreich aktualisiert. {link}",
+    "success-link": "Zum Login",
+    "code": "Code",
+    "error": {
+      "F1": "Bitte überprüfen Sie Ihre E-Mail, da sie nicht gefunden werden konnte.",
+      "F2": "Ihr Link zum Zurücksetzen des Passworts ist ungültig, bitte fordern Sie einen neuen an",
+      "F3": "Bitte verwenden Sie ein stärkeres Passwort",
+      "general": "Es ist ein Fehler aufgetreten."
+    }
+  },
+  "login": {
+    "title": "Best-It Spezialshop",
+    "subtitle": "Ihr Partner für professionelle IT",
+    "mail": "E-Mail-Addresse",
+    "mailuser": "E-Mail-Adresse oder Benutzername",
+    "password": "Passwort",
+    "remember": "remember Passwort",
+    "login-action": "Anmeldung",
+    "register-hint": "Kein Account? {link}",
+    "register-action-link": "jetzt registrieren",
+    "error": {
+      "F1": "Anmeldedaten nicht korrekt",
+      "F3": "Bitte aktivieren Sie Ihr Konto, bevor Sie sich erneut anmelden. {link}",
+      "active-link": "Aktivierungscode erneut schicken"
+    },
+    "forgot-password": "Passwort vergessen? {link}",
+    "forgot-password-link": "Fordere ein neues Passwort an",
+    "logoff-hint": "Sie haben sich erfolgreich abgemeldet"
+  },
+  "activate": {
+    "code": "Aktivierungscode",
+    "activate-action-link": "Jetzt aktivieren",
+    "error": "Dieser Aktivierungscode ist ungültig.",
+    "success": "Danke für die Registrierung. Ihr Konto wurde erfolgreich aktiviert, Sie können jetzt {link}.",
+    "login-action": "log in",
+    "hint": "Um die Registrierung abzuschließen, müssen Sie noch Ihren Account aktivieren.\nBitte überprüfen Sie Ihren E-Mail-Posteingang auf eine Aktivierungs-E-Mail.",
+    "no-code": "Kein Code gefunden? {link}",
+    "resend-action": "Code hier erneut anfordern"
+  },
+  "resend": {
+    "email": "E-Mail",
+    "hint": "Geben Sie die E-Mail-Adresse ein, mit der Sie sich bereits registriert haben.",
+    "already-code": "Hast du schon ein Passwort?  {link}",
+    "already-code-action": "Jetzt aktivieren",
+    "action": "Code erneut versenden",
+    "error": "Leider konnte kein Code versendet werden. Versuchen Sie es später erneut oder wenden Sie sich an den Administrator (info@special.shop)."
+  },
+  "account": {
+    "changePassword": "Passwort ändern",
+    "oldPassword": "Altes Passwort",
+    "newPassword": "Neues Passwort",
+    "save": "Speichern",
+    "error": {
+      "F1": "Die E-Mail gilt als nicht gültig",
+      "F2": "Die E-Mail wird bereits verwendet",
+      "F3": "Passwortsicherheit zu niedrig",
+      "F4": "Vor- oder Nachname ist zu kurz",
+      "F5": "Falsches Geschlecht angegeben",
+      "F6": "Sprache konnte nicht erkannt werden",
+      "F7": "Ihre Adresse ist ungültig",
+      "F8": "Ihr altes Passwort ist nicht korrekt",
+      "general": "Es ist ein Fehler aufgetreten, bitte kontaktieren Sie den Administrator oder versuchen Sie es später"
+    },
+    "successGeneral": "Ihre Kontodaten wurden erfolgreich bearbeitet"
+  },
+  "register": {
+    "title": "Anmeldung",
+    "login-hint": "Sie haben schon ein Konto? {link}",
+    "login-action-link": "Jetzt einloggen",
+    "register-action": "registrieren",
+    "password": "Passwort",
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "street": "Straße",
+    "postcode": "Postleitzahl",
+    "city": "Stadt",
+    "country": "Land",
+    "password-retype": "Passwort erneut eingeben",
+    "language": "Sprache",
+    "agb": "Ich akzeptiere die {link}.",
+    "agb-link": "Bedingungen",
+    "password-mismatch": "Die Passwörter stimmen nicht überein.",
+    "gender": "Geschlecht",
+    "genderOptions": {
+      "diverse": "Diverse",
+      "male": "Männlich",
+      "female": "Weiblich"
+    },
+    "error": {
+      "F1": "Die E-Mail gilt als nicht gültig",
+      "F2": "Die E-Mail wird bereits verwendet",
+      "F3": "Passwortsicherheit zu niedrig",
+      "F4": "Vor- oder Nachname ist zu kurz",
+      "F5": "Falsches Geschlecht angegeben",
+      "F6": "Sprache konnte nicht erkannt werden",
+      "F7": "Ihre Adresse ist ungültig",
+      "general": "Es ist ein Fehler aufgetreten, bitte kontaktieren Sie den Administrator oder versuchen Sie es später"
+    }
+  },
+  "search":{
+    "title": "Suche",
+    "placeholder": "Suchen Sie nach Einträgen"
+  },
+  "sideMenu":{
+    "title": "Kategorien"
+  }
+}

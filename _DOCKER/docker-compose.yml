@@ -1,0 +1,98 @@
+
+version: "3.8"
+services:
+
+  # PHP service
+  backend:
+    build:
+      context: ./../
+      dockerfile: ./_DOCKER/Backend/Dockerfile
+    container_name: ${FPM_CONTAINER_NAME}
+    working_dir: /var/www/
+    expose:
+      - "9000"
+    volumes:
+      - ./../Backend:/var/www
+    environment:
+      IS_DEV: ${IS_DEV}
+      SMTP_SERVER: ${SMTP_SERVER}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USER: ${SMTP_USER}
+      SMTP_PASSWORD: ${SMTP_PASSWORD}
+      MYSQL_HOST: ${DB_HOST}
+      MYSQL_PORT: ${DB_PORT}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_TABLE: ${DB_DATABASE}
+    networks:
+      - app-network
+
+  # Nginx service
+  nginx:
+    image: nginx:alpine
+    container_name: ${NGINX_CONTAINER_NAME}
+    ports:
+      - ${BACKEND_PORT}:80
+    volumes:
+      - ./../Backend:/var/www
+      - ./nginx/conf.d/:/etc/nginx/conf.d/
+    links:
+      - backend
+    networks:
+      - app-network
+
+  # Frontend service
+  frontend:
+    build:
+      context: ./../
+      dockerfile: ./_DOCKER/Frontend/Dockerfile
+    container_name: ${FRONTEND_CONTAINER_NAME}
+    working_dir: /var/www/app
+    environment:
+      - HOST=0.0.0.0
+    ports:
+      - "${FRONTEND_PORT}:5000"
+    volumes:
+      - ./../Frontend:/var/www/app
+      - node_modules:/var/www/app/node_modules/
+    command: bash -c "npm install && npm rebuild node-sass && npm run build && npm run start"
+    network_mode: host #ONLY TO RUN PRODUCTIVE MODE IN LOCALHOST, REMOVE THIS LINE ON SERVERS and user
+  db:
+    image: mysql:5.7
+    container_name: store-mysql
+    expose:
+      - "3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_DATABASE: ${DB_DATABASE}
+    env_file:
+      - ./.env
+    volumes:
+      - ./database:/var/lib/mysql
+    networks:
+      - app-network
+  # PHPMyAdmin Service
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: store-phpmyadmin
+    restart: always
+    links:
+      - db
+    ports:
+      - ${PHPMYADMIN_PORT}:80
+    environment:
+      PMA_HOST: ${DB_HOST}
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    networks:
+      - app-network
+
+volumes:
+  node_modules:
+networks:
+  app-network:
+    driver: bridge
+    external:
+      name: app-network

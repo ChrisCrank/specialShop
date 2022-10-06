@@ -1,0 +1,232 @@
+/**
+Page Transition Animation
+ */
+.main-content{
+  min-height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.MainContentPageContent{
+  flex:1;
+}
+.page-enter-active, .page-leave-active {
+  transition: opacity .3s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
+
+.bg-header{
+  background: linear-gradient(#e66465, #9198e5);
+  padding-bottom:11rem;
+}
+
+.isLoading{
+  background-image: url(/loading.gif);
+  background-size: cover;
+  background-position: center;
+}
+
+/**
+extra
+ */
+.cursorPointer {
+  cursor:pointer;
+}
+.logoImg{
+  width:100%;
+}
+.bg-image {
+  background-image: url('http://placekitten.com/600/1020');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.bg-dark-custom {
+  background-color: #4a4848 !important;
+}
+.bg-white-trans{
+  background-color:rgba(255,255,255,.9);
+}
+body{
+  color: #5B5B5B !important;
+}
+
+$primary: #3f5bd7;
+$secondary: #440081;
+// Bootstrap and its default variables
+@import '../node_modules/bootstrap/scss/bootstrap';
+// BootstrapVue and its default variables
+@import '../node_modules/bootstrap-vue/src/index.scss';
+
+@import '../node_modules/bootstrap/scss/_variables.scss';
+.btn-primary{
+  color: $white;
+}
+.btn-primary:hover, .btn-primary:focus{
+  color: $gray-100;
+}
+
+.cInput{
+  background-color:$dark;
+  border: 1px solid $primary;
+  color:white;
+  width:100%;
+  padding:0.5em;
+}
+.cInput:focus{
+  background-color:lighten($dark,5%);
+  border: 1px solid $primary;
+  color:white;
+  outline:none;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;  .text-outline{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+  height: 15px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgba(210, 172, 253, 0.8);
+}
+*::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(45deg, lighten($primary,20%), $primary);
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0,0,0,.12) 0 3px 13px 1px;
+}
+
+.text-outline{
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.myCustomHeader{
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-transform:uppercase;
+  letter-spacing: 3px;
+  text-align:center;
+  &:before{
+    position: absolute;
+    top: 50%;
+    left: -120px;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.08)
+  }
+  &:after{
+    position: absolute;
+    top: 50%;
+    right: -120px;
+    bottom: 0;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.09);
+  }
+}
+
+.customButton,.customButton2, {
+  background-image: linear-gradient(to right, $primary ,lighten($primary, 20%));
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: $white;
+  font-size:1.2em;
+  font-weight:bold;
+  box-shadow: 0 0 10px $primary;
+  border-radius: 10px;
+  display: block;
+  border: 0px solid transparent;
+}
+.customButton3{
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  font-size:1.2em;
+  font-weight:bold;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 0 10px $primary;
+}
+.customButton2{
+  background-image: linear-gradient(to right, $primary ,lighten($primary, 20%));
+  border: 3px solid $white;
+}
+.customButton3{
+  background-image: linear-gradient(to right, transparent ,lighten($primary, 20%));
+  border: 3px solid $white;
+}
+.customButton2:hover, .customButton3:hover {
+  border: 3px solid $white !important;
+}
+.customButton2:focus, .customButton3:focus {
+  border: 3px solid $white !important;
+}
+
+.customButton:hover,.customButton2:hover, .customButton3:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: $white;
+  text-decoration: none;
+  border: 0px solid transparent;
+}
+
+#imagePrevWrapperImg{
+  height:100vh;
+}
+.imagePreviewContainer{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  overflow:auto;
+  background-color:rgba(0,0,0,.9);
+  display:none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+  z-index: 2000000;
+  cursor:pointer;
+  div{
+    padding:0.5em;
+  }
+  .closeCross {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+  }
+  .closeCross:hover {
+    opacity: 1;
+  }
+  .closeCross:before, .closeCross:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 3px;
+    background-color: $danger;
+  }
+  .closeCross:before {
+    transform: rotate(45deg);
+  }
+  .closeCross:after {
+    transform: rotate(-45deg);
+  }
+}
+.imagePreviewContainerShow{
+  display:flex !important;
+}
